@@ -7,12 +7,7 @@ let e = "brown";
 let color = "white";
 
 
-function crearDiv() {
-    let div = document.createElement("div");
-    div.setAttribute("id", "miDiv");
-    div.textContent = "¡Nuevo div creado!";
-    document.body.appendChild(div);
-  }
+
 
  
 
