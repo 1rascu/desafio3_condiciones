@@ -1,0 +1,13 @@
+
+
+#key {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+  }
+
+  #contenedor {
+    text-align: center;
+    justify-items: center;
+  }

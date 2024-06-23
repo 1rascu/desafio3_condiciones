@@ -27,13 +27,7 @@
     background-color: yellow;
 }
 
-#imgcolor{
-    display: flex;
-    height: 200px;
-    width: 200px;
-    transition: cambiacolor 1s;
-    
-}
+
 .cambiacolor{
     background-color: black;
 }
