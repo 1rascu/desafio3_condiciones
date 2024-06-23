@@ -1,0 +1,39 @@
+.azul{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+}
+
+.rojo{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.verde{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.amarillo{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+#imgcolor{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    transition: cambiacolor 1s;
+    
+}
+.cambiacolor{
+    background-color: black;
+}
