@@ -32,7 +32,7 @@
 }
 nav {
     grid-area: nav;
-    background-color: brown;
+    background-color:rgb(42, 165, 130);
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -55,7 +55,7 @@ main {
 footer {
     grid-area: footer;
     display: flex;
-    background-color:brown;
+    background-color:rgb(42, 165, 130);
     text-align: center;
     color: aliceblue;
     gap: 1px;

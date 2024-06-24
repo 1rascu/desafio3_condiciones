@@ -32,7 +32,7 @@
 }
 nav {
     grid-area: nav;
-    background-color: brown;
+    background-color:rgb(42, 165, 130);
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -55,7 +55,7 @@ main {
 footer {
     grid-area: footer;
     display: flex;
-    background-color:brown;
+    background-color:rgb(42, 165, 130);
     text-align: center;
     color: aliceblue;
     gap: 1px;
@@ -161,13 +161,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
 .key1 {
     width: 200px;
     height: 200px;
@@ -175,10 +168,14 @@ footer {
     border: 3px solid black;
   }
 
+.nuevoDiv {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
 #key {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     width: 200px;
     height: 200px;
     background-color: white;

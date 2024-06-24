@@ -1,15 +1,7 @@
 let a = "pink";
 let s = "orange";
 let d = "lightblue";
-let q = "purple";
-let w = "gray";
-let e = "brown";
 let color = "white";
-
-
-
-
- 
 
 document.addEventListener("keydown", function(event) {
   switch(event.key) {
@@ -41,8 +33,10 @@ function crearNuevoDiv(ancho, alto, color) {
     const nuevoDiv = document.createElement('div');
     nuevoDiv.style.width = ancho + 'px';
     nuevoDiv.style.height = alto + 'px';
+    nuevoDiv.style.margin = '0 auto';
+    nuevoDiv.style.display = 'inline-block'; 
     nuevoDiv.style.backgroundColor = color;
-    document.body.appendChild(nuevoDiv);
+    document.getElementById('nuevoDiv').appendChild(nuevoDiv);
 }
 
   document.addEventListener('keydown', function(event) {
