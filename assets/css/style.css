@@ -158,6 +158,25 @@ footer {
   }    
 
 
+  .laimagen{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.bienvenido{
+
+    justify-items: center;
+    text-align: center;
+}
+
+.imginicio{
+   
+    height: 300px;
+    width: 300px;
+}
+
+
 
 
 
