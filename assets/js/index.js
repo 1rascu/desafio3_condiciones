@@ -1,33 +1,33 @@
  //1.- Transforma esta declaración de función a una función de expresión. El ejercicio debe
 //quedar en un archivo nombrado `1_funcion.js` (1 Punto)
 
-function example(a, b, c){
-    return a+b+c
-    }
+//function example(a, b, c){
+//    return a+b+c
+//    }
 
 
 //2.- Transforma la siguiente función a una arrow function de una línea. Este ejercicio
 //debe quedar en un archivo llamado `2_arrow.js` (1 Punto)
 
-let suma = function(a, b){
-    return a + b
-    }
+//let suma = function(a, b){
+//    return a + b
+//    }
 
 //Tip: Para los requerimientos 1 y 2 recuerda que tienes material asociado en la
-    “Guía - Funciones” en el capítulo de Arrow functions.
+ //   “Guía - Funciones” en el capítulo de Arrow functions.
     
 
 //Se tiene como base el siguiente ejercicio que cambia el color de fondo de un elemento de
 //HTML al hacerle click (3 Puntos)
 
-<div id="ele1"> hello </div>
-<script>
-function pintar(){
-ele.style.backgroundColor = 'yellow'
-}
-const ele = document.getElementById("ele1")
-ele.addEventListener("click", pintar);
-</script>
+//<div id="ele1"> hello </div>
+//<script>
+//function pintar(){
+//ele.style.backgroundColor = 'yellow'
+//}
+//const ele = document.getElementById("ele1")
+// ele.addEventListener("click", pintar);
+//</script>
 
 //2.1El código debe estar en 2 archivos: pintar.html y script.js. El script debe
 //estar dentro de la carpeta assets/js (1 Punto).
@@ -66,11 +66,11 @@ ele.addEventListener("click", pintar);
 //Tip: El siguiente script te ayudará a realizar acciones en función de que se
 //presione una tecla, además en la guía de estudio encontrarás un ejemplo.
 
-document.addEventListener('keydown', function (event) {
-    if (event.key === 'a') {
+//document.addEventListener('keydown', function (event) {
+//if (event.key === 'a') {
     /* Cambiar a color 1 */
-    } else if (event.key === 's') {
+// } else if (event.key === 's') {
     /* Cambiar a color 2 */
-    }
-    })
+//    }
+//    })
     
